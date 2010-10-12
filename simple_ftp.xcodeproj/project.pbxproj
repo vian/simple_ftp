@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D9C59312631B4200089EE7 /* simple_ftp_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92D9C57C1262CDA600089EE7 /* simple_ftp_server.cpp */; };
+		92D9C60112641FDB00089EE7 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9C60012641FDB00089EE7 /* libboost_filesystem.a */; };
+		92D9C60312641FFE00089EE7 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9C60212641FFE00089EE7 /* libboost_system.a */; };
+		92D9C66312644BAD00089EE7 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9C60012641FDB00089EE7 /* libboost_filesystem.a */; };
+		92D9C66412644BAD00089EE7 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D9C60212641FFE00089EE7 /* libboost_system.a */; };
+		92D9C66512644BB800089EE7 /* simple_ftp_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92D9C5FF12641EA700089EE7 /* simple_ftp_client.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92D9C57B1262CDA600089EE7 /* simple_ftp_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_ftp_server.h; sourceTree = "<group>"; };
+		92D9C57C1262CDA600089EE7 /* simple_ftp_server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simple_ftp_server.cpp; sourceTree = "<group>"; };
+		92D9C57D1262EBE700089EE7 /* simple_ftp_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_ftp_common.h; sourceTree = "<group>"; };
+		92D9C58112631A8200089EE7 /* server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = server; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D9C5FE12641EA700089EE7 /* simple_ftp_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simple_ftp_client.h; sourceTree = "<group>"; };
+		92D9C5FF12641EA700089EE7 /* simple_ftp_client.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = simple_ftp_client.cpp; sourceTree = "<group>"; };
+		92D9C60012641FDB00089EE7 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = "/Users/vian/dev/boost_1_44_0/bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi/libboost_filesystem.a"; sourceTree = "<absolute>"; };
+		92D9C60212641FFE00089EE7 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = "/Users/vian/dev/boost_1_44_0/bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi/libboost_system.a"; sourceTree = "<absolute>"; };
+		92D9C65F12644B9E00089EE7 /* client */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = client; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92D9C57F12631A8200089EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D9C60112641FDB00089EE7 /* libboost_filesystem.a in Frameworks */,
+				92D9C60312641FFE00089EE7 /* libboost_system.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D9C65D12644B9E00089EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D9C66312644BAD00089EE7 /* libboost_filesystem.a in Frameworks */,
+				92D9C66412644BAD00089EE7 /* libboost_system.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92D9C5701262CD6E00089EE7 = {
+			isa = PBXGroup;
+			children = (
+				92D9C57A1262CD8300089EE7 /* Source */,
+				92D9C58212631A8200089EE7 /* Products */,
+				92D9C60012641FDB00089EE7 /* libboost_filesystem.a */,
+				92D9C60212641FFE00089EE7 /* libboost_system.a */,
+			);
+			sourceTree = "<group>";
+		};
+		92D9C57A1262CD8300089EE7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				92D9C57B1262CDA600089EE7 /* simple_ftp_server.h */,
+				92D9C57C1262CDA600089EE7 /* simple_ftp_server.cpp */,
+				92D9C57D1262EBE700089EE7 /* simple_ftp_common.h */,
+				92D9C5FE12641EA700089EE7 /* simple_ftp_client.h */,
+				92D9C5FF12641EA700089EE7 /* simple_ftp_client.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		92D9C58212631A8200089EE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92D9C58112631A8200089EE7 /* server */,
+				92D9C65F12644B9E00089EE7 /* client */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92D9C58012631A8200089EE7 /* server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D9C58612631A8300089EE7 /* Build configuration list for PBXNativeTarget "server" */;
+			buildPhases = (
+				92D9C57E12631A8200089EE7 /* Sources */,
+				92D9C57F12631A8200089EE7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = server;
+			productName = server;
+			productReference = 92D9C58112631A8200089EE7 /* server */;
+			productType = "com.apple.product-type.tool";
+		};
+		92D9C65E12644B9E00089EE7 /* client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92D9C67312644BF700089EE7 /* Build configuration list for PBXNativeTarget "client" */;
+			buildPhases = (
+				92D9C65C12644B9E00089EE7 /* Sources */,
+				92D9C65D12644B9E00089EE7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = client;
+			productName = client;
+			productReference = 92D9C65F12644B9E00089EE7 /* client */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92D9C5721262CD6E00089EE7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 92D9C5751262CD6E00089EE7 /* Build configuration list for PBXProject "simple_ftp" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 92D9C5701262CD6E00089EE7;
+			productRefGroup = 92D9C58212631A8200089EE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92D9C58012631A8200089EE7 /* server */,
+				92D9C65E12644B9E00089EE7 /* client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92D9C57E12631A8200089EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D9C59312631B4200089EE7 /* simple_ftp_server.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D9C65C12644B9E00089EE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D9C66512644BB800089EE7 /* simple_ftp_client.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		92D9C5731262CD6E00089EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		92D9C5741262CD6E00089EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		92D9C58412631A8300089EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../boost_1_44_0/bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../boost_1_44_0/bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = server;
+			};
+			name = Debug;
+		};
+		92D9C58512631A8300089EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../boost_1_44_0/stage/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../boost_1_44_0/bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../boost_1_44_0/bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = server;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		92D9C66112644B9F00089EE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../boost_1_44_0/bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../boost_1_44_0/bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = client;
+			};
+			name = Debug;
+		};
+		92D9C66212644B9F00089EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../boost_1_44_0/bin.v2/libs/filesystem/build/darwin-4.2.1/debug/link-static/threading-multi\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../boost_1_44_0/bin.v2/libs/system/build/darwin-4.2.1/debug/link-static/threading-multi\"";
+				PREBINDING = NO;
+				PRODUCT_NAME = client;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D9C5751262CD6E00089EE7 /* Build configuration list for PBXProject "simple_ftp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D9C5731262CD6E00089EE7 /* Debug */,
+				92D9C5741262CD6E00089EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D9C58612631A8300089EE7 /* Build configuration list for PBXNativeTarget "server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D9C58412631A8300089EE7 /* Debug */,
+				92D9C58512631A8300089EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92D9C67312644BF700089EE7 /* Build configuration list for PBXNativeTarget "client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D9C66112644B9F00089EE7 /* Debug */,
+				92D9C66212644B9F00089EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D9C5721262CD6E00089EE7 /* Project object */;
+}
